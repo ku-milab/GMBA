@@ -268,19 +268,5 @@ def main():
         MappingNetwork.train()
 
 
-        if epoch % 5 == 0:
-
-            save_dir = './' + 'batch_size' + str(
-                args.batch_size) + 'lr_age_' + str(args.lr_age) + '_lr_gan_' + str(args.lr_gan) + '_scheduler_' + str(
-                args.scheduler) + '_' + date_str + '/epoch_%d' % epoch
-
-            if not os.path.exists(save_dir):
-                os.makedirs(save_dir)
-
-
-        if epoch > 99 and epoch % 10 == 0:
-            torch.save(Generator.state_dict(), save_dir + '/Generator_epoch_%d.pth' % epoch)
-            torch.save(MappingNetwork.state_dict(), save_dir + '/MappingNetwork_epoch_%d.pth' % epoch)
-
 if __name__ == '__main__':
     main()
