@@ -9,3 +9,24 @@ Face age transformation aims to convert reference images into synthesized images
 
 - Python 3.7.10
 - CUDA Version 11.0
+
+1. Nvidia driver, CUDA toolkit 11.0, install Anaconda.
+
+2. Install pytorch
+```
+conda install pytorch torchvision cudatoolkit=11.0 -c pytorch
+```
+
+4. Install various necessary packages
+```
+pip install numpy tqdm
+```
+
+## Training
+
+When using Terminal, directly execute the code below after setting the path
+
+
+```
+python main.py --gpu 0 --batch_size 64 --epochs 100
+```
