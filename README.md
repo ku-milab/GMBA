@@ -28,5 +28,5 @@ When using Terminal, directly execute the code below after setting the path
 
 
 ```
-python main.py --gpu 0 --batch_size 64 --epochs 100
+python main.py --gpu 0 --batch_size 64 --epoch 100
 ```
