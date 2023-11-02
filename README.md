@@ -3,7 +3,7 @@
 
 This repository provides the official PyTorch implementation of the following paper:
 > **Age-Aware Guidance via Masking-Based Attention in Face Aging**<br>
-> Junyeong Maeng<sup>1,\*</sup>, [Kwanseok Oh](https://scholar.google.co.kr/citations?user=EMYHaHUAAAAJ&hl=ko)<sup>1,\*</sup>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
+> [Junyeong Maeng](https://scholar.google.co.kr/citations?user=8yuRvWMAAAAJ&hl=ko)<sup>1,\*</sup>, [Kwanseok Oh](https://scholar.google.co.kr/citations?user=EMYHaHUAAAAJ&hl=ko)<sup>1,\*</sup>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
 > (<sup>1</sup>Department of Artificial Intelligence, Korea University) <br/>
 > (<sup>2</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
 > (* indicates equal contribution) <br/> 
