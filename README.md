@@ -38,6 +38,16 @@ When using Terminal, directly execute the code below after setting the path
 python main.py --gpu 0 --batch_size 64 --epoch 100
 ```
 ## Citation
+If used in your research, please cite the following paper:
+```
+@inproceedings{maeng2023age,
+  title={Age-Aware Guidance via Masking-Based Attention in Face Aging},
+  author={Maeng, Junyeong and Oh, Kwanseok and Suk, Heung-Il},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={4165--4169},
+  year={2023}
+}
+```
 
 ## Acknowledgement
 This work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by
